@@ -1,6 +1,5 @@
 # CODE-PIPELINE-TOOLS
 # BUILDING-A-CI/CD-PIPELINE
-        # BUILDING-A-CI/CD-PIPELINE
         VAGRANT=====================================>
         ANSIBLE/CHEF================================> Configuration Management Tools
         TERRAFORM/CLOUDFORMATION===============>  Repplication or instantiation tools.
@@ -8,7 +7,7 @@
         CLOUD-PROVIDER: ============================>AWS and Resources
         GITHUB======================================> Source Version Control
         JENKINS=====================================> CI/CD; Handle Automation and Plugins
-        TOMCAT====================================>    Servet Container
+        TOMCAT====================================>    Serlvet Container
         MAVEN=======================================>Continous Building
         DOCKER======================================>Containerization
         NEXUS/ARTIFACTORY==========================>  Repositories and Binairies
