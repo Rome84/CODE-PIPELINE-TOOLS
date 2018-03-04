@@ -24,3 +24,8 @@
 
 # COMING SOON
 
+# Plan and Code
+# Build and Test
+# Release and Deploy
+# Operate and Monitor
+
