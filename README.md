@@ -22,9 +22,9 @@
         PROJECT MANAGEMENT TOOL==================> Jira, Confluence,Slack/Hipchat
         NETWORK-SECURITY:==========================> netcat, tcpdump, Wireshark, OSSEC
 
-
+**********************************************************************************************************************
 # Plan and Code
 # Build and Test
 # Release and Deploy
 # Operate and Monitor
-
+**************************************************************************************************************************
