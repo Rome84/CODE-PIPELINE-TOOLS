@@ -36,7 +36,7 @@
 3- Jenkins pulls this code from the repository using the Git plugin and build it using tools like Ant or Maven.
 #                 ANSIBLE/CHEF/PUPPET
 4- Configuration management tools like Ansible/Chef/puppet etc.. deploys & provisions testing environment.
-#                 MAVEN  
+#                 MAVEN AND SELENIUM
 5- Jenkins releases this code on the test environment on which testing is done using tools like selenium.
 #                 ANSIBLE/CHEF/PUPPET
 5- Once the code is tested, Jenkins send it for deployment on the production server (even production server is provisioned & maintained by tools like Ansible/Chef/puppet).
@@ -45,6 +45,8 @@
 #                 DOCKER
 7. Docker containers provides testing environment to test the build features.
 
+
+# WHAT EACH TOOL DOES
 # Ansible
 Ansible is an automation engine that enables IT admins to automate parts of their daily tasks. Enterprises that use Ansible stand to benefit from increased accountability and compliance in their IT environments as well as innovation and collaboration among their employees. Organizations can also take their Ansible deployment one step further with Tower, which adds control, security and other capabilities that enterprises can monitor with a UI and RESTful API.
 
