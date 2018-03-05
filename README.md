@@ -46,13 +46,12 @@
 7. Docker containers provides testing environment to test the build features.
 
 
-# WHAT EACH TOOL DOES
+# WHAT EACH TOOL DOES ?
 # Ansible
 Ansible is an automation engine that enables IT admins to automate parts of their daily tasks. Enterprises that use Ansible stand to benefit from increased accountability and compliance in their IT environments as well as innovation and collaboration among their employees. Organizations can also take their Ansible deployment one step further with Tower, which adds control, security and other capabilities that enterprises can monitor with a UI and RESTful API.
 
 # Docker
 An infrastructure-neutral platform, Docker integrates into any environment and provides full stack portability for apps. The framework comes with certified containers that enterprises can use to build secure, safer applications. Organizations may choose the Enterprise Edition, which streamlines app development and production across locations running Windows and Linux.
-
 
 # Chef
 Chef is a platform designed to help organizations manage their infrastructure. The Chef Server stores an enterprise’s “cookbooks,” or repositories which houses information about the desired state of a customer’s infrastructure, as well as details pertaining to every “node,” or network machine on which the Chef client runs and obtains configuration information. Chef helps organizations manage all their on-premises and cloud environments as well as accelerates the process of enterprises adopting the cloud.
