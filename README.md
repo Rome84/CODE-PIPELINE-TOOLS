@@ -70,4 +70,3 @@ More than 15,000 customers use New Relic to innovate with visibility across thei
 
 # Nagios (& Icinga) 
 nagios Infrastructure monitoring is a field that has so many solutions… from Zabbix to Nagios to dozens of other open-source tools. Despite the fact that there are now much newer kids on the block, Nagios is a veteran monitoring solution that is highly effective because of the large community of contributors who create plugins for the tool. Nagios does not include all the abilities that we had wanted around the automatic discovery of new instances and services, so we had to work around these issues with the community’s plugins. Fortunately, it wasn’t too hard, and Nagios works great.
-
