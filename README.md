@@ -28,6 +28,23 @@
 # Release and Deploy
 # Operate and Monitor
 **************************************************************************************************************************
+# How do all these tools work together?
+#                 GIT
+1- Developers develop the code and this source code is managed by Version Control System tools like Git etc.
+2- Developers send this code to the Git repository and any changes made in the code is committed to this Repository.
+#                JENKINS AND MAVEN
+3- Jenkins pulls this code from the repository using the Git plugin and build it using tools like Ant or Maven.
+#                 ANSIBLE/CHEF/PUPPET
+4- Configuration management tools like Ansible/Chef/puppet etc.. deploys & provisions testing environment.
+#                 MAVEN  
+5- Jenkins releases this code on the test environment on which testing is done using tools like selenium.
+#                 ANSIBLE/CHEF/PUPPET
+5- Once the code is tested, Jenkins send it for deployment on the production server (even production server is provisioned & maintained by tools like Ansible/Chef/puppet).
+#                 MONITORING
+6. After deployment It is continuously monitored by tools like Nagios etc...
+#                 DOCKER
+7. Docker containers provides testing environment to test the build features.
+
 # Ansible
 Ansible is an automation engine that enables IT admins to automate parts of their daily tasks. Enterprises that use Ansible stand to benefit from increased accountability and compliance in their IT environments as well as innovation and collaboration among their employees. Organizations can also take their Ansible deployment one step further with Tower, which adds control, security and other capabilities that enterprises can monitor with a UI and RESTful API.
 
